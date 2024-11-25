@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalie o filme</title>
+    <link type="text/CSS" rel="stylesheet" href="./CSS/Formulário.css"> 
+    <link type="png/x-icon" rel="icon" href="./Images/Logo_PapoCine.png">
+</head>
+<body>
+    <img src="./imagens/Logo_PapoCine.png" class="logo">    
+    <form>
+        <label for="nome">Informe seu nome</label><br><br>
+        <input type="text" placeholder="Nome" id="nome" name="nome" min="1"><br><br>
+        <label for="email">Insira seu Email</label><br><br>
+        <input type="email" placeholder="Email" min="1"><br><br>
+        <label for="Avaliação">Nos conte o que você achou do filme:</label><br><br>
+        <input type="text" name="avaliação" id="avaliação" placeholder="Escreva o que você achou do filme" class="resp" min="1"><br><br>
+        <label for="nota">Dê uma nota de 1 a 5</label><br><br>
+        <input type="range" name="amountRange" min="1" max="5" value="0" oninput="this.form.amountInput.value=this.value" />
+        <input type="number" name="amountInput" min="1" max="5" value="0" oninput="this.form.amountRange.value=this.value" /><br><br>
+        <input type="submit" class="submit">
+    </form>
+    <a href="./index.html" class="voltar">Voltar ao site inicial</a>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-color:rgb(29,25,25);
+    color:white;
+}
+
+.logo{
+    margin-left:30%;
+}
+
+.nota{
+    accent-color: yellow;
+}
+
+label{
+    background-color: #C8102E;
+    border:1px;
+    border-radius:30px;
+    width:fit-content;
+    height: fit-content;
+    font-size:30px;
+    padding-left:0.5%;
+    padding-right:0.5%;
+    
+}
+
+input[type=text],input[type=email]{
+    transition:0.7s;
+    outline:none;
+    border-radius:30px;
+    width:17%;
+    padding: 7px 0;
+        
+}
+
+input[type=text]:focus,input[type=email]:focus{
+    border: 3px solid yellow;
+    border-radius:30px;
+    
+}
+
+input[type=text].resp{
+    width:40%;
+    max-width:40%;
+    text-size-adjust: auto;
+
+}
+
+input[type=range]{
+    accent-color: rgb(53, 255, 2);
+}
+
+.submit{
+    background-color:rgb(53,255,2);
+    border:1px solid black;
+    border-radius: 30px;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.submit:hover{
+    background-color: rgb(42, 196, 4);
+    transition-duration: 0.5s;
+}
+
+input[type=submit]{
+    padding: 2% 0;
+    width:10%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.voltar{
+    background-color:rgb(53,255,2);
+    border:1px;
+    border-radius: 30px;
+    padding: 1% 1%;
+    position:absolute;
+    display: flex;
+    margin-top: 1%;
+    transition-duration: 0.5s;
+    margin-left: 60%;
+    margin-top: 37%;    
+}
+
+.voltar:hover{
+    background-color: rgb(42, 196, 4);
+    transition-duration: 0.5s;
+}
+
+form{
+    margin-left:31%;
+    border:10px solid white;
+    padding-right:-35%;
+    padding: 2% 3%;        
+    width:fit-content;
+    border-radius: 30px;
+    position:absolute;
+    
+}

@@ -1,0 +1,181 @@
+body{
+    background-color:rgb(29,25,25);
+    color:white;
+}
+
+nav{
+    
+        height:40%;
+        width: 100%;
+        background-color: #C8102E;
+        align-items:center;
+}
+.busca{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+header{
+    background-color:#C8102E;
+}
+
+.cp{
+    display:block;
+    border:1px solid black;
+    border-radius: 15%;;
+    float:left;
+    height:550px;
+    margin-left:10%;
+    margin-top:6%;
+    
+}
+
+.titulo{
+    position:absolute;
+    display:flex;
+    color:white;
+    border:1px solid black;
+    border-radius:15%;
+    background-color:#C8102E;
+    margin-left:45%;
+    margin-top:6%;
+    width:220px;
+    height:fit-content;
+    padding-left: 1%;
+    padding-top:0.5% ;
+    padding-right:1%;
+    font-size:30px;
+    
+}
+.paragrafo{
+    position:absolute;
+    display:flex;
+    color:white;
+    margin-top:11%;
+    margin-left:45%;
+    width:fit-content;
+    max-width:25%;
+    font-size:20px;
+    text-align: justify;
+}
+
+.cat{
+    position:absolute;
+    display:flex;
+    color:white;
+    font-size:16px;
+    margin-top:5%;
+    margin-left:65%
+}
+
+.nota{
+    
+    position:absolute;
+    color:yellow;
+    margin-left:65%;
+    margin-top:7%;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    padding:1%;
+}
+
+.links{
+    position:absolute;
+    padding-bottom:-1%;
+    display:flex;
+    margin-left: 30%;
+    margin-top:-7%;
+    font-size:20px;
+}
+
+
+.logo{
+    display:flex;
+    position:relative;
+}
+
+.sites{
+    border:1px;
+    border-radius:30%;
+    transition-duration:0.5s;
+    padding:4%;
+    
+    
+}
+
+.sites:hover{
+    background-color:#770c1e;
+    transition-duration:0.5s
+}
+
+
+.ond{
+    margin-top:10%;
+    margin-right:5%;
+    width:40%;
+}
+
+.icon{
+    height:60%;
+    width:70%;
+    border:1px;
+    border-radius:100%;
+    transition-duration:1s; 
+    padding:3%;
+}
+
+.icon:hover{
+    height:75%;
+    width:85%;
+    transition-duration:1s;
+}
+
+.ano{
+    position: absolute;
+    display: flex;
+    margin-left:65%;
+    margin-top: 9.7%;
+}
+
+li{
+    list-style: none;
+    height:100%;
+    width:100%;
+}
+
+ul{
+    float:right;
+    margin-top:6%;
+    margin-left:7%;
+}
+
+.button{
+    position:absolute;
+    display:flex;
+    background-color:#C8102E;
+    width:10%;
+    padding-left:3%;
+    padding-right: 3%;
+    margin-top:47%;
+    margin-left:50%;
+    border:1px;
+    border-radius:30px;
+    transition-duration:1s;
+    text-align: center;
+   
+}
+
+.button:hover{
+    transition-duration:0.5s;
+    background-color:#770c1e;
+
+}
+
+.button:active{
+    transform:translateY(4px)
+}

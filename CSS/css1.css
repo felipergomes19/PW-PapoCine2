@@ -1,0 +1,132 @@
+.pt{
+    height: 4%;
+    width: 100%;
+    background-color: #C8102E;
+}
+
+body{
+    background-color: rgb(29,25,25);
+    animation-name: opc;
+    animation-duration: 5s;
+
+    }
+    @keyframes opc{
+    from{opacity: 0;}
+    to{opacity: 1;}
+    }
+    .capa{
+        float: left;
+        margin-left: 620px;
+        transition-duration:3s;
+    }
+    .capa:hover{
+        transition-duration: 3s;
+        transform: translatex(780px);
+        animation-name: move;
+        
+    }
+    @keyframes move {
+        
+    }
+    
+    ul{
+        float: left;
+        margin-left: -10px;
+        list-style-type: none;
+    }
+    li{
+        float: right;
+        list-style-type: none; 
+    }
+    .cp{
+    
+        border-radius:30px; 
+        height: 350px;
+        cursor:pointer;
+        float:right;
+        margin-left:-20px;
+        margin-right:50px;
+        width: 300px;
+        padding: 4px;
+        transition-duration:1s;
+    }
+   .cp:hover{
+    width:350px;
+    height:400px;
+    transition-duration:1s;
+   }
+    
+    .busca{
+        margin-left: 33%;
+      margin-bottom: 10px;
+        border-radius: 10px;
+    
+    }
+    
+    h2{
+        
+        color: white;
+        display: grid;
+    }
+    
+    table{
+        
+        float: right; 
+        border: none;
+
+        margin-right: 320px;
+    }
+    td{
+        
+        float: left;
+        margin-top: 70px;
+        margin-left: 150px;
+        color: white;
+        
+    }
+    h3{
+        margin-left: 1379px;
+        margin-top: 60px;
+        color: white;
+        display: flex;
+    }
+    h4{
+        float: right;
+        margin-top: 230px;
+        margin-right: -300px;
+        color: white;
+    }
+    nav{
+
+        height:40%;
+        width: 100%;
+        background-color: #C8102E;
+        align-items:center;
+    }
+.links{
+    position:absolute;
+    padding-bottom:-1%;
+    display:flex;
+    margin-left: 35%;
+    margin-top:-7%;
+    font-size:20px;
+}
+.sites{
+    border:1px;
+    border-radius:30%;
+    transition-duration:0.5s;
+    padding:4%;
+
+}
+
+.sites:hover{
+    background-color:#770c1e;
+    transition-duration:0.5s
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+        
+    

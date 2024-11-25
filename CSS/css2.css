@@ -1,0 +1,73 @@
+.pt{
+    height: 4%;
+    width: 100%;
+    background-color: #C8102E;
+}
+
+body{
+    background-color: rgb(29,25,25);
+    animation-name: opc;
+    animation-duration: 5s;
+
+    }
+    @keyframes opc{
+    from{opacity: 0;}
+    to{opacity: 1;}
+    }
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.cp{
+    
+    border-radius:50px; 
+    height: 570px;
+    cursor:pointer;
+    margin-left: 213px;
+    width: 350px;
+    transition-duration:1s;
+}
+
+.cp:hover{
+    width:380px;
+    height:600px;
+    transition-duration:1s;
+   }
+
+   nav{
+
+    height:40%;
+    width: 100%;
+    background-color: #C8102E;
+    align-items:center;
+}
+
+.links{
+position:absolute;
+padding-bottom:-1%;
+display:flex;
+margin-left: 35%;
+margin-top:-7%;
+font-size:20px;
+}
+.sites{
+border:1px;
+border-radius:30%;
+transition-duration:0.5s;
+padding:4%;
+
+}
+
+.sites:hover{
+background-color:#770c1e;
+transition-duration:0.5s
+}
+
+a{
+text-decoration:none;
+color: white;
+}
+
+   
